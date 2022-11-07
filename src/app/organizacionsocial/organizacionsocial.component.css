@@ -1,0 +1,18 @@
+#asd{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    color: #49575f;
+}
+
+#asdf {
+    margin-left: 100px;
+}
+

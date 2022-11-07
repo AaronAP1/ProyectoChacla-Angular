@@ -1,0 +1,64 @@
+<header id="header" class="d-flex align-items-right fixed-top bg-success">
+    <div class="container d-flex align-items-right">
+    <nav class="navbar navbar-expand-lg ">
+      
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://media.discordapp.net/attachments/984970824282955818/1032302338091798568/unknown.png"
+            width="150"
+            height="50"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" routerLink="principal">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" routerLink="principal#container">Requisitos</a>
+          </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" routerLink="organizacion">OrganizacionSocial</a>
+      </li>
+          
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Solicitudes
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="nuevasoli">Nueva Solicitud</a></li>
+          <li><a class="dropdown-item" routerLink="historial">Historial</a></li>
+          
+        </ul>
+            
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle " href="#" role="button " data-bs-toggle="dropdown" aria-expanded="false">
+          Resoluciones
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="registro">Registro</a></li>
+          
+        </ul>
+        <li>
+        <a class="nav-link active" aria-current="page" routerLink="login">Ingreso</a>
+        </li>
+          </ul>
+          
+        </div>
+      
+    </nav>
+    </div>
+    </header>
+    <router-outlet></router-outlet>

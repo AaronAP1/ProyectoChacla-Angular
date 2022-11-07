@@ -1,0 +1,32 @@
+
+<main id="asd">
+<div  id="asdf" class="text-center form-signin"   >
+    <form class="form-signin" th:action="@{/principal}">
+        <img class="mb-4" src="https://media.discordapp.net/attachments/984970824282955818/994423074449539172/unknown.png" alt="" width="122" height="82">
+        <h1 class="h3 mb-3 font-weight-normal">INGRESO</h1>
+        <div class="mb-0" style="text-align: left; ">
+            <label>
+                D.N.I*
+            </label>
+        </div>
+
+        <input type="text" id="inputEmail" class="form-control" placeholder="Ingrese su numero de DNI" required autofocus>
+        <div class="mb-0" style="text-align: left; ">
+            <label>
+                Contraseña*
+            </label>
+        </div>
+
+        <input type="password" id="inputPassword" class="form-control" placeholder="Ingrese su contraseña" required>
+        <div class="mb-3" style="text-align: left; ">
+            <br>
+            <a th:href="@{/registro}" style=" color: green;" >¿No tienes cuenta?</a>
+        </div>
+        <button class="btn btn-lg btn-success btn-block" type="submit">Iniciar Sesion</button>
+
+    </form>
+</div>
+
+
+</main>
+
